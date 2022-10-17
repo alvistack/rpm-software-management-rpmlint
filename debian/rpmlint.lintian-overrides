@@ -1,0 +1,7 @@
+rpmlint: copyright-without-copyright-notice
+rpmlint: depends-on-essential-package-without-using-version
+rpmlint: empty-binary-package
+rpmlint: initial-upload-closes-no-bugs
+rpmlint: mismatched-override
+rpmlint: no-manual-page
+rpmlint: zero-byte-file-in-doc-directory

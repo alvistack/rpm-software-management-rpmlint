@@ -1,0 +1,5 @@
+rpmlint (100:2.3.0+20220727dfd40b33-1) UNRELEASED; urgency=medium
+
+  * https://github.com/rpm-software-management/rpmlint/commit/dfd40b33 
+
+ -- Wong Hoi Sing Edison <hswong3i@gmail.com>  Thu, 04 Aug 2022 11:55:36 +0800

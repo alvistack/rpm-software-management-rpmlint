@@ -318,6 +318,10 @@ Filters = [
     'sudo.* (setuid-binary|non-standard-executable-perm) /usr/bin/sudo(edit)? (root )?04',
     'upstart.* (setuid-binary|non-standard-executable-perm) /sbin/initctl (root )?04',
     'usermode.* (setuid-binary|non-standard-executable-perm) /usr/sbin/userhelper (root )?04',
+    # Only works properly with SUSE packages. See
+    # https://github.com/rpm-software-management/rpmlint/issues/781
+    'no-library-dependency-for',
+    'no-library-dependency-on',
 
 ## Bash completion files are not scripts, do not require them marked as %config
 #    'W: non-conffile-in-etc /etc/bash_completion.d/',

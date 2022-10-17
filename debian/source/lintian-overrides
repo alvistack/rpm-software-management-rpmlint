@@ -1,0 +1,3 @@
+rpmlint source: file-without-copyright-information
+rpmlint source: no-debian-changes
+rpmlint source: source-is-missing

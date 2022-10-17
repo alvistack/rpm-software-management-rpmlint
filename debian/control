@@ -1,0 +1,59 @@
+Source: rpmlint
+Section: admin
+Priority: optional
+Standards-Version: 4.5.0
+Maintainer: Wong Hoi Sing Edison <hswong3i@gmail.com>
+Homepage: https://github.com/rpm-software-management/rpmlint/tags
+Vcs-Browser: https://github.com/alvistack/rpm-software-management-rpmlint
+Vcs-Git: https://github.com/alvistack/rpm-software-management-rpmlint.git
+Build-Depends:
+ debhelper,
+ debhelper-compat (= 10),
+ dh-python,
+ fdupes,
+ iso-codes,
+ python3-dev,
+ python3-setuptools,
+
+Package: rpmlint
+Architecture: all
+Description: RPM package checker
+ rpmlint is a tool for checking common errors in rpm packages.  rpmlint
+ can be used to test individual packages before uploading or to check
+ an entire distribution.  By default all applicable checks are
+ performed but specific checks can be performed by using command line
+ parameters.
+ .
+ rpmlint can check binary rpms (files and installed ones), source rpms,
+ and plain specfiles, but all checks do not apply to all argument
+ types.  For best check coverage, run rpmlint on source rpms instead of
+ plain specfiles, and installed binary rpms instead of uninstalled
+ binary rpm files.
+ .
+ The idea for rpmlint is from the lintian tool of the Debian project.
+Depends:
+ ${misc:Depends},
+ ${python3:Depends},
+ ${shlibs:Depends},
+ bash,
+ binutils,
+ bzip2,
+ cpio,
+ dash,
+ desktop-file-utils,
+ devscripts,
+ file,
+ findutils,
+ hunspell-cs,
+ hunspell-en-us,
+ libappstream-glib8,
+ python3-enchant,
+ python3-importlib-metadata,
+ python3-magic,
+ python3-pybeam,
+ python3-rpm,
+ python3-tomli-w,
+ python3-tomli,
+ python3-xdg,
+ python3-zstandard,
+ rpm2cpio,

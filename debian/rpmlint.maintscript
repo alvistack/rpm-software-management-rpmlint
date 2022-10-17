@@ -1,0 +1,1 @@
+rm_conffile /etc/rpmlint/config 2.3.0~ rpmlint
