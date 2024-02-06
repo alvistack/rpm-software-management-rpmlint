@@ -1,0 +1,5 @@
+rpmlint (100:2.4.0-1) UNRELEASED; urgency=medium
+
+  * https://github.com/rpm-software-management/rpmlint/releases/tag/2.4.0
+
+ -- Wong Hoi Sing Edison <hswong3i@pantarei-design.com>  Tue, 06 Feb 2024 23:05:19 +0800
