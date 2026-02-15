@@ -34,3 +34,5 @@ venv/
 *.xz
 /__version__.py
 /.packit/*.tar.gz
+
+.pybuild/
